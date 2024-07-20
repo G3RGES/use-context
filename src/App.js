@@ -14,7 +14,7 @@ function App() {
       <h1 className="text-3xl text-center py-6 my-2">useContext</h1>
 
       <Router>
-        <UserContext.Provider value="Gerges">
+        <UserContext.Provider value={[user, setUser]}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
