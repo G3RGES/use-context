@@ -4,8 +4,11 @@ import Dashboard from "./components/Dashboard";
 import Recommendations from "./components/Recommendations";
 import { UserContext } from "./context/UserContext";
 import Home from "./components/Home";
+import { useState } from "react";
 
 function App() {
+  const [user, setUser] = useState("Gerges");
+
   return (
     <>
       <h1 className="text-3xl text-center py-6 my-2">useContext</h1>
