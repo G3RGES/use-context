@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="text-center text-3xl">Home</h1>
-      <div className="flex flex-row gap-3 justify-center items-center">
+      <div className="flex flex-row gap-3 justify-center items-center font-bold">
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/recommendations">Recommendations</Link>
         <Link to="/podcasts">Podcasts</Link>
