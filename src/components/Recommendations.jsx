@@ -1,7 +1,7 @@
 import React from "react";
 
 const Recommendations = () => {
-  return <div>Recommendations</div>;
+  return <div>Your Recommendations</div>;
 };
 
 export default Recommendations;
